@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.cart{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+    width: 60%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    border: none;
+    
+}
+.order{
+    background-color: rgb(242, 239, 239);
+    padding: 30px 30px;
+}
+.shopping{
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:100px;
+    margin-bottom: 70px;
+    
+}
+.underline1{
+    border-bottom: 0.5px solid rgb(186, 183, 183);
+    margin-top: 10px;
+    width: 700px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+.underline2{
+    border-bottom: 0.5px solid rgb(177, 176, 176);
+    margin-top: 10px;
+    width: 300px;
+    margin-left: 2px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.box1{
+ margin-left: 30px;
+ margin-top: 30px;
+}
+img{
+    margin-top: 10px;
+    margin-left: 5px;
+    
+    width: 50%;
+    border: 2px solid rgb(238, 230, 230);
+   
+}
+img:hover{
+    cursor: pointer;
+    border: 2px solid rgb(234, 138, 138);
+    transform: scale(1.1);
+    transition: 0.3s ease-out;
+}
+
+.img1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.img1 p{
+    font-size: 8px;
+    color: gray;
+}
+.img1 span{
+    font-size: 15px;
+    color: rgb(235, 53, 53);
+    
+}
+.img2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.img2 p{
+    font-size: 8px;
+    color: gray;
+}
+.img2 span{
+    font-size: 15px;
+    color: rgb(235, 53, 53);
+    
+}
+
+.img3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.img3 p{
+    font-size: 8px;
+    color: gray;
+}
+.img3 span{
+    font-size: 15px;
+    color: rgb(235, 53, 53);
+    
+}
+.values{
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.three{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+button{
+    background-color: white;
+    border: none;
+    color: red;
+}
+button:hover{
+    cursor: pointer;
+}
+.values p{
+    background-color: white;
+    border: 2px solid  rgb(238, 230, 230);
+    padding: 3px 14px;
+}
+
+.money{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 55px;
+}
+.items{
+    display: flex;
+    justify-content: space-between  ;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.order span{
+    color: gray;
+}
+.discount{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between  ;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.disOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.disTwo{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.final{
+    margin-top: 170px;
+}
+.f{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.val{
+    color: rgb(94, 92, 92);
+}
+.am{
+    font-weight: bold;
+}
+.check{
+    margin-top: 20px;
+    background-color: rgb(202, 59, 59);
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 17px;
+
+}
+.check:hover{
+    background-color: black;
+    color: white;
+    border:none;
+    transition: all 0.7s ease-in-out;
+    
+
+}
