@@ -1,12 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-import MainFive from './Challenge5/MainFive';
+import MainSix from './Challenge6/MainSix';
+// import MainFive from './Challenge5/MainFive';
 
 function App() {
   return (
     <div className="App">
       {/* Challenge five  */}
-      <MainFive />
+      {/* <MainFive /> */}
+
+      {/* Challenge Six */}
+      <MainSix />
+
+
     </div>
   );
 }

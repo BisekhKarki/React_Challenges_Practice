@@ -1,0 +1,143 @@
+.understand h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.home{
+    text-align: center;
+}
+
+.understand{
+    margin-top: 43px;
+    margin-bottom: 60px;
+}
+
+.homeImage{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.homeTwo{
+    background-color: rgb(240, 238, 238);
+    border-bottom: 1px solid  rgb(208, 205, 205);
+}
+.bodyThird{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    font-family: Quicksand, Helvetica, Arial, sans-serif;
+    
+
+}
+.bodyThird p{
+    font-size: 15px;
+    line-height: 22px;
+}
+.thirdImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    margin-bottom: 100px;
+}
+.bodyThird h3{
+    color: rgb(78, 26, 61);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.bodyOne{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+    text-align: left;
+    gap: 25px;
+}
+.bodyTwo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+    text-align: left;
+    gap: 25px;
+}
+.bodyThree{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+    text-align: left;
+    gap: 25px;
+}
+.homeThree h1{
+    color: rgb(78, 26, 61);
+    margin-top: 25px;
+    font-size: 27px;
+}
+.homeThree{
+    margin-bottom: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: row ;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.container img{
+    width: 25%;
+}
+.container p{
+    line-height: 20px;
+    text-align: left;
+    font-size: 12px;
+}
+.scooty img{
+    width: 23%;
+}
+
+.cupoon{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(217, 223, 252);
+    border-radius: 6px;
+    padding: 25px 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+   
+}
+
+.gift{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(217, 223, 252);
+    border-radius: 6px;
+    padding: 25px 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+   
+}   
+.money{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(217, 223, 252);
+    border-radius: 6px;
+    padding: 25px 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+   
+}
+.scooty{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(217, 223, 252);
+    border-radius: 6px;
+    padding: 25px 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+   
+}
