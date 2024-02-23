@@ -1,0 +1,22 @@
+.footer{
+    border-top: 1px solid rgb(81, 79, 79);
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 980px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 20px;
+}
+.values{
+    font-size: 13px;
+    color: rgb(154, 152, 152);
+}
+.icons:hover{
+    cursor: pointer;
+}

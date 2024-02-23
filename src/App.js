@@ -1,6 +1,7 @@
 import './App.css';
-import MainSix from './Challenge6/MainSix';
 // import MainFive from './Challenge5/MainFive';
+// import MainSix from './Challenge6/MainSix';
+import MainSeven from './Challenge7/MainSeven';
 
 function App() {
   return (
@@ -9,7 +10,11 @@ function App() {
       {/* <MainFive /> */}
 
       {/* Challenge Six */}
-      <MainSix />
+      {/* <MainSix /> */}
+
+      {/* Challenge Seven */}
+      <MainSeven />
+
 
 
     </div>

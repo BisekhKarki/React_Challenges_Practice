@@ -6,8 +6,6 @@ import logoNav from "../../images/wineBlackLogo.svg"
 import NavLogo from "../../images/wine.svg"
 import { Link } from 'react-router-dom';
 
-
-
 function NavBar() {
     
     const [Changes, setChange] = useState(true);
