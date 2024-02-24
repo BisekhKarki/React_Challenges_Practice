@@ -7,8 +7,10 @@ import logo from "../images/logo.png"
 import { ImSearch } from "react-icons/im";
 import "../styles/NavSeven.css"
 import Footer from "./Footer";
+import SecondNav from "./SecondNav";
 
 export const Context = createContext(null);
+export const NewBool = createContext(null);
 
 function NavSeven() {
     
@@ -18,9 +20,21 @@ function NavSeven() {
     setChange(!change)
   }
 
-  return (
-    <Context.Provider value={change}>
-      <div className="nav" style={{backgroundColor: change ? 'white' : 'black'}}>
+  // For chnaging the component
+ const [boolValue, setBoolValue] = useState(false);
+  const changeBool = ()=>{
+    setBoolValue(!boolValue)
+  }
+
+  // If true show the another nav else render the default navbar
+  if(boolValue == true){
+    return <SecondNav />
+  } else {
+    return (
+      <NewBool.Provider value={boolValue} >
+      <Context.Provider value={change}>
+        
+           <div className="nav" style={{backgroundColor: change ? 'white' : 'black'}}>
         <div className="logo">
             <img src={logo} alt="logo" />
         </div>
@@ -38,17 +52,19 @@ function NavSeven() {
                 <p>Add people</p>
             </div>
             <div className="searchBtn">
-                <button><ImSearch></ImSearch></button>
+                <button onClick={changeBool}><ImSearch></ImSearch></button>
             </div>
           </div>
         </div>
       </div>
-      <BodySeven  />
-      <Footer />
+        <BodySeven  />
+        <Footer />
+      </Context.Provider>
+      </NewBool.Provider>
+    );
+  }
 
-     
-    </Context.Provider>
-  );
+ 
 }
 
 export default NavSeven;

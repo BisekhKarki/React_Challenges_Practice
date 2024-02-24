@@ -1,0 +1,92 @@
+
+.secondNav{
+    background-color: rgb(58, 55, 55);
+    color: white;
+    position: sticky;
+    top: 0px;
+    padding: 20px 20px;
+    
+   
+}
+
+.mainSecond{
+
+    border-radius: 20px;
+   border: 2px solid gray;
+   display: flex;
+    flex-direction: row;
+   justify-content: center;
+   gap: 30px;
+   width: 60%;
+   margin-left: 350px;
+   padding: 10px 10px;
+  
+}
+
+.locationS{
+    border-right:2px solid gray ;
+}
+
+.people{
+    border-right:2px solid gray ;
+}
+.wrong{
+    position: absolute;
+    top: 58%;
+    left: 42%; 
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+.countryInput{
+    width: 100%;
+    height: 3vh;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.countryInput:focus{
+    border: none;
+    outline: none;
+}
+.right{
+    position: absolute;
+    top: 58%;
+    left: 58%; 
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.peopleInput{
+    width: 100%;
+    height: 3vh;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.peopleInput:focus{
+    border: none;
+    outline: none;
+}
+.searchButton{
+        background-color:  rgb(235, 87, 87);
+        padding: 10px 30px;
+        border-radius: 10px;
+        border: 1px solid   rgb(235, 87, 87);
+        color: white;
+        font-size: 15px;
+        text-align: center;
+
+}
+.searchButton:hover{
+    cursor: pointer;
+}

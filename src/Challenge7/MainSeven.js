@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import NavSeven from './components/NavSeven'
-// import BodySeven from './components/BodySeven'
+
+
 
 
 function MainSeven() {
