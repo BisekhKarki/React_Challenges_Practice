@@ -1,4 +1,4 @@
-
+/* 
 .secondNav{
     background-color: rgb(58, 55, 55);
     color: white;
@@ -76,6 +76,7 @@
 .peopleInput:focus{
     border: none;
     outline: none;
+    
 }
 .searchButton{
         background-color:  rgb(235, 87, 87);
@@ -90,3 +91,70 @@
 .searchButton:hover{
     cursor: pointer;
 }
+.countryList{
+    position: absolute;
+    top: 80%;
+    left: 21%;
+    background-color: rgb(25, 25, 25);
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: center;
+    padding: 20px 40px;
+    line-height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.addingPeople{
+    position: absolute;
+    top: 80%;
+    left: 44%;
+    background-color: rgb(25, 25, 25);
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: center;
+    padding: 10px 20px;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.addingPeople p{
+    font-size: 15px;
+    color: gray;
+
+}
+.addingPeople h4{
+    font-size: 15px;
+}
+.addingPeople button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 35px;
+}
+.addingPeople button:hover{
+    cursor: pointer;
+}
+.add{
+    display: flex;
+    align-items: center;
+    gap: 10px;    
+}
+.add p{
+    font-size: 25px;
+    color: white;
+}
+
+.childrenAdd{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.childrenAdd p{
+    font-size: 25px;
+    color: white;
+} */

@@ -12,8 +12,11 @@ import SecondNav from "./SecondNav";
 export const Context = createContext(null);
 export const NewBool = createContext(null);
 
-function NavSeven() {
-    
+function NavSeven({ country,people }) {
+  
+  const [inputVal,setInputVal] = useState("Choose location");
+  const [p,setP] = useState("Add people");
+
   const [change, setChange] = useState(false);
 
   const bolChange = ()=>{
@@ -27,8 +30,8 @@ function NavSeven() {
   }
 
   // If true show the another nav else render the default navbar
-  if(boolValue == true){
-    return <SecondNav />
+  if(boolValue === true){
+    return <SecondNav  back={change} />
   } else {
     return (
       <NewBool.Provider value={boolValue} >
@@ -46,10 +49,10 @@ function NavSeven() {
           </div>
           <div className="search" style={{border: change ? "2px solid white" : "2px solid rgb(70, 69, 69)"}}>
             <div className="choose">
-                <p>Choose Location</p>
+                <p>{boolValue ? setInputVal(country) : inputVal }</p>
             </div>
             <div className="addPeople">
-                <p>Add people</p>
+                <p>{boolValue ? setP(people) : p }</p>
             </div>
             <div className="searchBtn">
                 <button onClick={changeBool}><ImSearch></ImSearch></button>

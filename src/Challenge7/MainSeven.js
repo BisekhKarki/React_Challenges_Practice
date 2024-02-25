@@ -1,8 +1,5 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import NavSeven from './components/NavSeven'
-
-
-
 
 function MainSeven() {
   return (

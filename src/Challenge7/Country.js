@@ -1,4 +1,4 @@
-const country = [
+let country = [
     {
         place:"Helsinki",
         nation:"Finland"
@@ -20,3 +20,5 @@ const country = [
 
     }
 ]
+
+export default country;
