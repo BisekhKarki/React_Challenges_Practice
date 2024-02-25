@@ -1,7 +1,7 @@
 import './App.css';
 // import MainFive from './Challenge5/MainFive';
 // import MainSix from './Challenge6/MainSix';
-import MainSeven from './Challenge7/MainSeven';
+// import MainSeven from './Challenge7/MainSeven';
 
 function App() {
   return (

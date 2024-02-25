@@ -1,24 +1,24 @@
-let country = [
-    {
-        place:"Helsinki",
-        nation:"Finland"
+// let country = [
+//     {
+//         place:"Helsinki",
+//         nation:"Finland"
 
-    },
-    {
-        place:"Turku",
-        nation:"Finland"
+//     },
+//     {
+//         place:"Turku",
+//         nation:"Finland"
 
-    },
-    {
-        place:"Vaasa",
-        nation:"Finland"
+//     },
+//     {
+//         place:"Vaasa",
+//         nation:"Finland"
 
-    },
-    {
-        place:"Oulu",
-        nation:"Finland"
+//     },
+//     {
+//         place:"Oulu",
+//         nation:"Finland"
 
-    }
-]
+//     }
+// ]
 
-export default country;
+// export default country;
