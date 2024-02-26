@@ -1,4 +1,5 @@
 import './App.css';
+import MainEight from './Challenge8_Movie/MainEight';
 // import MainFive from './Challenge5/MainFive';
 // import MainSix from './Challenge6/MainSix';
 // import MainSeven from './Challenge7/MainSeven';
@@ -16,7 +17,7 @@ function App() {
       {/* <MainSeven /> */}
 
       {/* Challenge Eight */}
-      
+      <MainEight />
 
 
 

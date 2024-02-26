@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+.mainTitle{
+    color: white;
+    
+}
+.pageCount{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.top{
+    padding: 50px 5px;
+    display: flex;
+    flex-direction: row;
+    width: 1400px;
+    margin-left: 160px;
+    justify-content: space-between;
+    text-align: center;
+}
+.h{
+    background: rgb(33, 33, 33);
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1500px;
+    margin-left: 170px;
+    color: white;
+    
+}
+.movies{
+    width: 20%;
+    margin-top:20px ;
+    text-align: left;
+    
+}
+/* .hd{
+    background-color: rgb(255, 255, 2);
+    color: black;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    width: 10%;
+    position: relative;
+    top: -85%;
+    left: 63%;
+} */
+.poster{
+    width: 75%;
+    height: 35vh;
+    border-radius: 10px;
+    
+}
+.poster:hover{
+cursor: pointer;
+transform: scale(1.07);
+}
+.title{
+    width: 80%;
+
+}
+.next_previous{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    position: relative;
+    left: 85%;
+}
+.previousPage{
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+.nextPage{
+    padding: 10px 20px;
+    font-size: 15px;
+}
