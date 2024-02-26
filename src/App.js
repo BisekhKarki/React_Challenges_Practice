@@ -14,7 +14,7 @@ function App() {
       {/* <MainSix /> */}
 
       {/* Challenge Seven */}
-      {/* <MainSeven /> */}
+      <MainSeven /> 
 
       {/* Challenge Eight */}
       <MainEight />
