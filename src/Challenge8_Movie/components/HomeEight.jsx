@@ -57,10 +57,6 @@ function HomeEight() {
   return (
     <>
       <div className="h">
-        <div className="top">
-        <h2 className="mainTitle">Top movies</h2>
-        <p className="pageCount">Page: {pages}</p>
-        </div>
         <div className="home">
           {movies.length === 0 ? (
             <Loading />
@@ -71,17 +67,19 @@ function HomeEight() {
                   <div className="movies" key={films.id}>
                     <img
                       className="poster"
-                      src={`https://image.tmdb.org/t/p/w200${films.poster_path}`}
+                      src={`https://image.tmdb.org/t/p/original${films.poster_path}`}
                       alt={`${films.title} images`}
                     />
-                    {/* <p className="hd">HD</p> */}
                     <h3 className="title">{films.title}</h3>
-                    <p className="title">{films.release_date}</p>
                   </div>
                 </>
               );
             })
           )}
+           <div className="top">
+           <p className="pageCount">Page: {pages}</p>
+          </div>
+          
           { showButtons()}
         </div>
       </div>

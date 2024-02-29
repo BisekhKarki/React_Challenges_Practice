@@ -2,7 +2,7 @@ import React from 'react'
 
 function Loading() {
   return (
-    <div style={{color:'black'}}>Loading.....</div>
+    <div style={{color:'white',background:'rgb(33, 33, 33)'}}>Loading.....</div>
   )
 }
 

@@ -1,0 +1,42 @@
+.car{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.left {
+    position: absolute;
+    top: 40%;
+    background: none;
+    border: none;
+    font-size: 50px;
+    color: rgb(243, 241, 241);
+    
+}
+.left:hover{
+    cursor: pointer;
+}
+.right{
+    position: absolute;
+    top: 40%;
+    left: 97%;
+    background: none;
+    border: none;
+    font-size: 50px;
+    color: rgb(243, 241, 241);
+}
+.right:hover{
+    cursor: pointer;
+}
+
+.carosoul{
+    color: white;
+}
+.carosalPoster{
+    width: 90%;
+    height: 80vh;
+    justify-content: center;
+}
+
+

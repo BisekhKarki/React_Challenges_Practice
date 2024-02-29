@@ -5,8 +5,11 @@
 }
 .navEight{
     background: rgb(11, 11, 11);
+   
+    
 }
 .nav{
+    
     display: flex;
     flex-direction: row;
     gap: 600px;
@@ -18,13 +21,13 @@
 .eight{
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 10px;
     width: 600px;
     align-items: center;
 }
 .l{
     background:none;
-    width:80%;
+    width:40%;
 }
 .navigation{
     display: flex;
