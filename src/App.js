@@ -1,7 +1,8 @@
 import './App.css';
-import MainEight from './Challenge8_Movie/MainEight';
+// import MainEight from './Challenge8_Movie/MainEight';
+import Calculator from './Challenge9/Calculator';
 // import MainFive from './Challenge5/MainFive';
-// import MainSix from './Challenge6/MainSix';
+import MainSix from './Challenge6/MainSix';
 // import MainSeven from './Challenge7/MainSeven';
 
 function App() {
@@ -14,12 +15,13 @@ function App() {
       {/* <MainSix /> */}
 
       {/* Challenge Seven */}
-      <MainSeven /> 
+      {/* <MainSeven />  */}
 
       {/* Challenge Eight */}
-      <MainEight />
+      {/* <MainEight /> */}
 
-
+      {/* Challenge 9 Calculators */}
+      <Calculator />
 
     </div>
   );
